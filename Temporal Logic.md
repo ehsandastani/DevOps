@@ -6,5 +6,5 @@ Before introducing temporal logic to those unfamiliar with classical logic, we p
 Briefly, when defining __logic__, it is best to describe it as an abstraction of the world.
 
 Logic has two branches:
-* Model theory: Concerned with the interpretation of formal languages and their models.
-* Proof theory: Focuses on the syntactic structure and formal derivations in logical systems.
+* __Model theory__: Concerned with the interpretation of formal languages and their models.
+* __Proof theory__: Focuses on the syntactic structure and formal derivations in logical systems.
