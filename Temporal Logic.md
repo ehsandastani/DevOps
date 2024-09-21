@@ -44,7 +44,7 @@ The proof theory of logic consist of axioms and inference rules (alternatively, 
 Thus, proving a formula essentially consist of searching for a sequence of axioms and inference rule applications that form the steps of the proof.
 
 ### __Propositional Logic__
-In classical propositional logic, an interpretation for a well-formed formula is an assignment of either True or False to each statement of the language. Associated with each interpretation, $I$, is a function, $I_{\text atomic}$ from propositional symbols to elements of ${T, F}$.
+In classical propositional logic, an interpretation for a well-formed formula is an assignment of either True or False to each statement of the language. Associated with each interpretation, $I$, is a function, $I_{\text atomic}$ from propositional symbols to elements of $\{ T, F \}$.
 
 $I: \text{Statement} \rightarrow \{T, F\}$
 
