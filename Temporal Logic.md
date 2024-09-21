@@ -31,7 +31,3 @@ A formal system is a set of axioms, rules of inference, and symbols that define 
 * _Inference Rules_: The rules that allow new statements (theorems) to be derived from the axioms.
 * _Formulas_: Well-formed expressions within the system.
 
-
-Logic has two branches:
-* __Model theory__: Concerned with the interpretation of formal languages and their models.
-* __Proof theory__: Focuses on the syntactic structure and formal derivations in logical systems.
