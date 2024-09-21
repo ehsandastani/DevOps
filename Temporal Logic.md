@@ -35,4 +35,3 @@ A formal system is a set of axioms, rules of inference, and symbols that define 
 Logic has two branches:
 * __Model theory__: Concerned with the interpretation of formal languages and their models.
 * __Proof theory__: Focuses on the syntactic structure and formal derivations in logical systems.
-
