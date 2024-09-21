@@ -5,6 +5,11 @@ Before introducing temporal logic to those unfamiliar with classical logic, we p
 ## Review of Classical Logic
 Briefly, when defining __logic__, it is better to say __logic__ just represents an abstraction of the world.
 
+Logic has two branches:
+* __Model theory__: Concerned with the interpretation of formal languages and their models.
+* __Proof theory__: Focuses on the syntactic structure and formal derivations in logical systems.
+
+
 First, let's define some terms that will be important later.
 
 ### Logical Language
@@ -31,3 +36,20 @@ A formal system is a set of axioms, rules of inference, and symbols that define 
 * _Inference Rules_: The rules that allow new statements (theorems) to be derived from the axioms.
 * _Formulas_: Well-formed expressions within the system.
 
+
+
+### What is proof?
+The proof theory of logic consist of axioms and inference rules (alternatively, called proof rules). Axioms describe "universal truths" for the logic and inference rules transform true statements into other true statements (theorems).
+
+Thus, proving a formula essentially consist of searching for a sequence of axioms and inference rule applications that form the steps of the proof.
+
+### __Propositional Logic__
+In classical propositional logic, an interpretation for a well-formed formula is an assignment of either True or False to each statement of the language. Associated with each interpretation, $I$, is a function, $I_{\text atomic}$ from propositional symbols to elements of $\{T, F\}$.
+
+$I: \text{Statement} \rightarrow \{T, F\}$
+
+Thus, a propositional symbol $p$ is true in an interpretation $I$, if, and only if, $I_{\text atomic}(p) = T$
+
+An __interpretation relation__, $\models$, can then be used to give the semantics of propositional formulae in such interpretations.
+
+$I \models p \hspace{1cm} iff \hspace{1cm} I_{\text atomic}(p) = T \hspace{0.3cm} for \hspace{0.3cm} p \in PROP $
