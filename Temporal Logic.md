@@ -19,7 +19,17 @@ A statement (also called a proposition) is a declarative sentence in a formal la
 ### Formula
 A formula is a syntactically correct expression in a formal language, constructed using symbols from that language according to its formation rules. It can contain variables, constants, functions, and logical connectives. Formulae may represent statements (when they contain no free variables) or predicates (when they have free variables).
 
+### Interpretation
+An interpretation assigns meaning to the symbols and terms in a logical language. Specifically, it maps the non-logical symbols (like predicates, functions, and constants) to specific objects, relations, and operations in a model. An interpretation determines whether formulas are true or false in a particular model.
 
+### Inference
+An inference is the process of deriving a new statement from existing statements (premises) using a set of rules. In formal logic, the inference rules dictate how one can move from axioms and previously derived statements to new theorems.
+
+### Formal System
+A formal system is a set of axioms, rules of inference, and symbols that define a logical structure. It consists of:
+* Axioms: Assumptions or basic truths within the system.
+* Inference Rules: The rules that allow new statements (theorems) to be derived from the axioms.
+* Formulas: Well-formed expressions within the system.
 
 
 Logic has two branches:
