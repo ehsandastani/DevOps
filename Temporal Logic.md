@@ -27,9 +27,9 @@ An inference is the process of deriving a new statement from existing statements
 
 ### Formal System
 A formal system is a set of axioms, rules of inference, and symbols that define a logical structure. It consists of:
-* Axioms: Assumptions or basic truths within the system.
-* Inference Rules: The rules that allow new statements (theorems) to be derived from the axioms.
-* Formulas: Well-formed expressions within the system.
+* _Axioms_: Assumptions or basic truths within the system.
+* _Inference Rules_: The rules that allow new statements (theorems) to be derived from the axioms.
+* _Formulas_: Well-formed expressions within the system.
 
 
 Logic has two branches:
